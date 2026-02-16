@@ -1,17 +1,16 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
+
 body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
 }
 
-/* Navigation */
 nav {
     display: flex;
     justify-content: space-between;
@@ -30,14 +29,13 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 1rem;
-    flex-wrap: wrap;   /* important */
+    flex-wrap: wrap;   
 }
 
 nav ul li {
     font-size: 1rem;
 }
 
-/* Container */
 .container {
     display: flex;
     gap: 1rem;
@@ -45,7 +43,7 @@ nav ul li {
     width: 100%;
 }
 
-/* Cards */
+
 .card {
     flex: 1 1 30%;
     background: lightgray;
@@ -54,14 +52,13 @@ nav ul li {
     border-radius: 8px;
 }
 
-/* Tablet */
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
     }
 }
 
-/* Mobile */
 @media (max-width: 480px) {
 
     nav {
